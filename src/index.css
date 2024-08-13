@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .main {
+        @apply dark:bg-header-mobile-dark dark:md:bg-header-desktop-dark md:bg-header-desktop-light bg-header-mobile-light min-h-screen bg-gray-100 bg-contain bg-no-repeat transition-all duration-700 dark:bg-gray-950;
+    }
+}
